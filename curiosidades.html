@@ -2,10 +2,11 @@
 <html>
 
 <head>
-	<title>Culinária</title>
+	<title>Curiosidades</title>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-
+	<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+	<link rel="stylesheet" href="/assets/css/cards.css">
 	<link rel="stylesheet" href="assets/css/main.css" />
 
 </head>
@@ -15,9 +16,9 @@
 
 	<div id="page-wrapper">
 
-		
+
 		<header id="header">
-			<h1 class="titulo"><a href="index.html">Culinária Africana</a></h1>
+			<h1 class="titulo"><a href="index.html">Curiosidades</a></h1>
 			<nav id="nav">
 				<ul>
 					<li class="special">
@@ -37,31 +38,24 @@
 				</ul>
 			</nav>
 		</header>
-
-		
-		<article id="mainn">
+		<article id="mainnnnnn">
 			<header>
-
 				<p>
-					"A culinária africana no Brasil é sabor e história em cada prato."</p>
+					"Raízes africanas: a força invisível que moldou a cultura e a resistência no Brasil."
+				</p>
 			</header>
 			<section class="wrapper style5">
 				<div class="inner">
 
-					<h3 style="color: white;">História da Culinária Africana no Brasil</h3>
-					<p style="color: white;">Durante a escravidão, milhões de africanos foram trazidos para o Brasil e, com eles, trouxeram
-						seus costumes alimentares. Ao chegarem, muitos foram forçados a trabalhar nas plantações de
-						açúcar, nas minas e em diversas outras atividades, mas conseguiram manter suas práticas
-						alimentares dentro das limitações impostas pelas novas condições.</p>
-
-					<p style="color: white;">Ao longo do tempo, a culinária africana foi se misturando com os ingredientes disponíveis no
-						Brasil, criando pratos únicos que hoje fazem parte da identidade nacional. Ingredientes como
-						azeite de dendê, leite de coco, feijão, arroz, mandioca e pimenta foram integrados aos sabores
-						africanos, originando receitas que são amplamente consumidas no país.</p>
+					<h3 style="color: white;">Curiosidades da cultura Africana no Brasil</h3>
+					<p style="color: white;">A cultura africana no Brasil tem uma riqueza imensa e influenciou
+						profundamente diversos aspectos da vida cotidiana, desde a moda até a resistência. Entre as
+						várias expressões culturais que sobrevivem até hoje, algumas curiosidades se destacam, como as
+						waves, as tranças nagô, a capoeira e a história da pinga</p>
 
 
 
-					<h4 style="color: white;"> Quais São os principais pratos ?</h4>
+					<h4 style="color: white;"> Clique nos Cards abaixo e descubra as histórias </h4>
 
 
 
@@ -69,52 +63,38 @@
 
 				</div>
 			</section>
-			<section id="two" class="wrapper alt style2">
-				<section class="spotlight">
-					<div class="image"><img src="/images/comida1.png" alt="" /></div>
-					<div class="content">
-						<h2> Feijoada
-						</h2>
-						<p>A feijoada, um dos pratos mais emblemáticos do Brasil, tem influências africanas. Embora a
-							receita tenha sido adaptada ao longo do tempo, os africanos escravizados usavam partes menos
-							nobres da carne, como orelha, pé e rabo de porco, e feijão, que eram os ingredientes
-							acessíveis na época. A feijoada hoje é um prato consumido em diversas ocasiões, com arroz,
-							farofa e laranja.
-						</p>
-					</div>
-				</section>
-				<section class="spotlight">
-					<div class="image"><img src="images/comida2.png" alt="" /></div>
-					<div class="content">
-						<h2>Acarajé</h2>
-						<p>Originário da culinária iorubá, o acarajé é uma das comidas mais representativas da Bahia.
-							Trata-se de bolinhos fritos feitos de feijão-fradinho, cebola, sal e azeite de dendê. No
-							Brasil, o acarajé é geralmente recheado com camarão seco, vatapá (um creme feito de peixe,
-							leite de coco, pão, amendoim e azeite de dendê) e caruru (quiabo cozido com camarão).</p>
-					</div>
-				</section>
-				<section class="spotlight">
-					<div class="image"><img src="images/comida3.png" alt="" /></div>
-					<div class="content">
-						<h2>Moqueca</h2>
-						<p>A moqueca é um prato de peixe cozido com azeite de dendê, leite de coco, pimentões, tomates,
-							cebolas e coentro, de origem tanto africana quanto indígena. Existem variações entre as
-							moquecas capixaba e baiana, com a baiana levando azeite de dendê e a capixaba sendo mais
-							suave, com uso de azeite de oliva.</p>
-					</div>
-				</section>
-				<section class="spotlight">
-					<div class="image"><img src="images/comida4.png" alt="" /></div>
-					<div class="content">
-						<h2>Bobó de Camarão</h2>
-						<p>O bobó de camarão é outro prato com forte influência africana, feito com camarões, mandioca
-							(aipim), leite de coco e azeite de dendê. A mandioca, ingrediente amplamente utilizado nas
-							culinárias africana e indígena, é essencial nesse prato.</p>
-					</div>
-				</section>
-			</section>
 
 		</article>
+		<div id="app" class="container">
+			<card
+				data-image="https://images.unsplash.com/photo-1521681867701-9962f648c1b6?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				href="durag.html">
+				<h1 slot="header">Durag (waves)</h1>
+				<p slot="content">Clique para conhecer a história da Durag e Waves</p>
+			</card>
+
+			<card
+				data-image="https://images.unsplash.com/photo-1592328906746-0a3ca0bde253?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				href="trancas.html">
+				<h1 slot="header">Tranças</h1>
+				<p slot="content">Clique para conhecer a história das tranças</p>
+			</card>
+
+			<card
+				data-image="https://images.unsplash.com/photo-1653476597388-b9a2d5f688d6?q=80&w=2122&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				href="capoeira.html">
+				<h1 slot="header">Capoeira</h1>
+				<p slot="content">Clique para conhecer a história da Capoeira</p>
+			</card>
+
+			<card
+				data-image="https://images.unsplash.com/photo-1574788175339-a53dcba9a9bd?q=80&w=1163&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+				href="pinga.html">
+				<h1 slot="header">Pinga</h1>
+				<p slot="content">Clique para conhecer a história da Pinga</p>
+			</card>
+
+		</div>
 
 		<footer id="footer">
 
@@ -122,7 +102,7 @@
 				<li>&copy;Desenvolvido por
 				<li class="corop">Opyum Squad</li>
 				</li>
-				
+
 
 			</ul>
 			<span class="corop">Lucas Maximo, Davi Sakai, Mateus Takemoto e Wagner Ruani</span>
@@ -130,7 +110,7 @@
 
 	</div>
 
-
+	<script src="/assets/js/card.js"></script>
 	<script src="assets/js/jquery.min.js"></script>
 	<script src="assets/js/jquery.scrollex.min.js"></script>
 	<script src="assets/js/jquery.scrolly.min.js"></script>
