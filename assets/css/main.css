@@ -3716,6 +3716,32 @@
 		background-size: cover;
 		text-align: center;
 	}
+	#tranca > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/trancasnago.png"); 
+		/* imagem da pagina de curiosidades acima ^^^^ */
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+	#capoeira > header {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/danca2.png"); 
+		/* imagem da pagina de curiosidades acima ^^^^ */
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
 	#background-video {
 		position: fixed;
 		top: 0;
@@ -3733,6 +3759,24 @@
 		top: 0;
 	}
 	#durag > header p a {
+		color: inherit;
+	}
+	  #capoeira > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+	#capoeira > header p a {
+		color: inherit;
+	}
+	  #tranca > header p {
+		color: inherit;
+		letter-spacing: 0.225em;
+		text-transform: uppercase;
+		top: 0;
+	}
+	#tranca > header p a {
 		color: inherit;
 	}
 	  
