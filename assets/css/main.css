@@ -4379,5 +4379,53 @@ body.is-mobile.landing .wrapper.style4 {
 	--hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 	--returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
-  
+  #mainn > header,
+#mainnn > header,
+#mainnnn > header,
+#mainnnnn > header,
+#mainnnnnn > header,
+#durag > header,
+#tranca > header,
+#capoeira > header {
+    padding: 12em 0 10em 0;
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz a imagem cobrir toda a área disponível, mantendo a proporção */
+    text-align: center;
+}
+
+#mainn > header {
+    background-image: url("../../images/feijoada.png");
+}
+
+#mainnn > header {
+    background-image: url("../../images/vestuário.png");
+}
+
+#mainnnn > header {
+    background-image: url("../../images/vestuáio.png");
+}
+
+#mainnnnn > header {
+    background-image: url("/images/opyumbannerr.png");
+}
+
+#mainnnnnn > header {
+    background-image: url("../../images/curiosidadess.png");
+}
+
+#durag > header {
+    background-image: url("../../images/50cent.png");
+}
+
+#tranca > header {
+    background-image: url("../../images/trancasnago.png");
+}
+
+#capoeira > header {
+    background-image: url("../../images/danca2.png");
+}
+
  
